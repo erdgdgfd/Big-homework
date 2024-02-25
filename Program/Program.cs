@@ -1,7 +1,5 @@
 ﻿string[] array1 = new string[4] { "Hello", "2", "world", ":-)" };
 string[] array2 = new string[array1.Length];
-FillSecondArray(array1, array2);
-PrintArrayContents(array2);
 
 void FillSecondArray(string[] array1, string[] array2)
     {
@@ -28,3 +26,6 @@ void FillSecondArray(string[] array1, string[] array2)
         }
         Console.WriteLine("]");
     }
+
+FillSecondArray(array1, array2);
+PrintArrayContents(array2);
